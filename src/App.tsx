@@ -1,9 +1,13 @@
+import { useState } from 'react';
+
+import Home from './components/Home';
+
 function App() {
-  return (
-    <main>
-      <h1 className='text-3xl font-bold text-slate-800'>Wedding Web</h1>
-    </main>
-  );
+  const [isShow, setIsShow] = useState(false);
+
+  if (!isShow) return <Home setIsShow={() => setIsShow(true)} />;
+
+  return null;
 }
 
 export default App;
