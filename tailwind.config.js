@@ -10,10 +10,14 @@ export default {
       textColor: {
         'light-pink': '#FFD0EC',
         'ebony-clay': '#1F2544',
+        'persian-pink': '#FF78C4',
+        linen: '#FFECEC',
       },
       backgroundColor: {
         'light-pink': '#FFD0EC',
         'ebony-clay': '#1F2544',
+        'persian-pink': '#FF78C4',
+        linen: '#FFECEC',
       },
     },
   },
