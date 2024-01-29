@@ -19,6 +19,9 @@ export default {
         'persian-pink': '#FF78C4',
         linen: '#FFECEC',
       },
+      borderColor: {
+        'persian-pink': '#FF78C4',
+      },
     },
   },
   plugins: [],

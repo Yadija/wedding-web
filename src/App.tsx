@@ -10,6 +10,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 import Content from './components/Content';
 import Home from './components/Home';
+import Information from './components/Information';
 
 function App() {
   const [isShow, setIsShow] = useState(true);
@@ -29,9 +30,7 @@ function App() {
           <Content />
         </SwiperSlide>
         <SwiperSlide>
-          <section className='flex h-screen items-center justify-center bg-red-300'>
-            <h2>Slide 2</h2>
-          </section>
+          <Information />
         </SwiperSlide>
       </Swiper>
     </section>
