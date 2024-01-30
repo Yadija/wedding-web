@@ -15,7 +15,7 @@ import Information from './components/Information';
 import Location from './components/Location';
 
 function App() {
-  const [isShow, setIsShow] = useState(true);
+  const [isShow, setIsShow] = useState(false);
 
   if (!isShow) return <Home setIsShow={() => setIsShow(true)} />;
 
