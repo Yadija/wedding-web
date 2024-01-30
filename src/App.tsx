@@ -9,6 +9,7 @@ import { Mousewheel } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import Content from './components/Content';
+import Footer from './components/Footer';
 import Home from './components/Home';
 import Information from './components/Information';
 import Location from './components/Location';
@@ -36,6 +37,9 @@ function App() {
         </SwiperSlide>
         <SwiperSlide>
           <Location />
+        </SwiperSlide>
+        <SwiperSlide className='max-h-28'>
+          <Footer />
         </SwiperSlide>
       </Swiper>
     </section>
