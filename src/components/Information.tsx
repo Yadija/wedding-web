@@ -1,3 +1,5 @@
+import { LuCalendarDays, LuClock8 } from 'react-icons/lu';
+
 function Information() {
   return (
     <section className='flex h-screen flex-col items-center justify-center gap-6 bg-ebony-clay px-8 text-center text-light-pink'>
@@ -21,12 +23,12 @@ function Information() {
             Akad Nikah
           </h3>
           <section className='flex justify-between gap-4 p-4'>
-            <section>
-              <p>clock</p>
+            <section className='flex flex-col items-center gap-2'>
+              <LuClock8 />
               <p>08:00 - 10:00</p>
             </section>
-            <section>
-              <p>calendar</p>
+            <section className='flex flex-col items-center gap-2'>
+              <LuCalendarDays />
               <p>Minggu, 25 Februari 2024</p>
             </section>
           </section>
@@ -36,12 +38,12 @@ function Information() {
             Resepsi
           </h3>
           <section className='flex justify-between gap-4 p-4'>
-            <section>
-              <p>clock</p>
+            <section className='flex flex-col items-center gap-2'>
+              <LuClock8 />
               <p>11:00 - selesai</p>
             </section>
-            <section>
-              <p>calendar</p>
+            <section className='flex flex-col items-center gap-2'>
+              <LuCalendarDays />
               <p>Minggu, 25 Februari 2024</p>
             </section>
           </section>

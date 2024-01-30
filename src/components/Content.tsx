@@ -6,7 +6,7 @@ function Content() {
           Acara Pernikahan
         </h2>
         <h3 className='text-lg md:text-xl'>
-          Diselenggarakan pada 24 Februari 2024 di Banjarmasin, Kalimantan Selatan.
+          Diselenggarakan pada 25 Februari 2024 di Banjarmasin, Kalimantan Selatan.
         </h3>
         <p className='py-2 text-xs sm:text-sm'>
           Oleh karena itu, dengan segala hormat, kami bermaksud untuk mengundang
