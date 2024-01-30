@@ -11,6 +11,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import Content from './components/Content';
 import Home from './components/Home';
 import Information from './components/Information';
+import Location from './components/Location';
 
 function App() {
   const [isShow, setIsShow] = useState(true);
@@ -23,14 +24,18 @@ function App() {
         modules={[Mousewheel]}
         direction={'vertical'}
         mousewheel={true}
-        className='h-screen'
+        className='h-full'
         speed={1500}
+        slidesPerView={'auto'}
       >
         <SwiperSlide>
           <Content />
         </SwiperSlide>
         <SwiperSlide>
           <Information />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Location />
         </SwiperSlide>
       </Swiper>
     </section>
